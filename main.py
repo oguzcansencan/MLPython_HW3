@@ -41,3 +41,15 @@ pp_reg2 = reg2.predict_proba(digitsX_test)
 
 pp_reg_multi = reg_multi.predict_proba(moonsX_test)
 pp_reg_multi2 = reg_multi2.predict_proba(digitsX_test)
+
+simple_pred = simple.predict(moonsX_test)
+simple2_pred = simple2.predict(digitsX_test)
+
+multi_pred = multi.predict(moonsX_test)
+multi2_pred = multi2.predict(digitsX_test)
+
+reg_pred = reg.predict(moonsX_test)
+reg2_pred = reg2.predict(digitsX_test)
+
+reg_multi_pred = reg_multi.predict(moonsX_test)
+reg_multi2_pred = reg_multi2.predict(digitsX_test)
